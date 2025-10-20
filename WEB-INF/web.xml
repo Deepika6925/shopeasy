@@ -1,0 +1,12 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+<servlet>
+    <servlet-name>CustomerMainServlet</servlet-name>
+    <servlet-class>com.shopeasy.servlets.CustomerMainServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CustomerMainServlet</servlet-name>
+    <url-pattern>/CustomerMainServlet</url-pattern>
+</servlet-mapping>
+  <!-- Add LoginServlet, RegisterServlet, CartServlet similarly -->
+</web-app>
